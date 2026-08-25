@@ -1,0 +1,110 @@
+{
+  "LN-2024-884102": {
+    "loanNo": "LN-2024-884102",
+    "memberName": "Kavita Rajesh Solanki",
+    "abilityScore": 58,
+    "abilityBand": "MEDIUM",
+    "intentScore": 48,
+    "intentBand": "MEDIUM",
+    "cohort": "FENCE_SITTER",
+    "modelVersion": "v1.2.0-logistic",
+    "computedAt": "2026-08-24T09:00:00.000Z",
+    "agentCallScript": "Borrower has moderate monthly household income (₹28,500) and previously cleared 4 EMIs, but missed the last due date by 24 days. Proactively offer an immediate ₹2,000 partial payment link to protect CIBIL standing.",
+    "factorBreakdown": {
+      "ability": [
+        {
+          "factor": "foir",
+          "factorDisplayName": "Fixed Obligation to Income Ratio (FOIR)",
+          "rawValue": 0.42,
+          "normalizedScore": 65,
+          "weight": 0.35,
+          "contribution": 22.75,
+          "isMissing": false,
+          "agentExplanation": "FOIR is moderate at 42% of household income."
+        },
+        {
+          "factor": "repayment_velocity",
+          "factorDisplayName": "Recent Repayment Velocity",
+          "rawValue": 0.58,
+          "normalizedScore": 58,
+          "weight": 0.25,
+          "contribution": 14.50,
+          "isMissing": false,
+          "agentExplanation": "Borrower paid 58% of cumulative principal due on schedule."
+        },
+        {
+          "factor": "days_overdue",
+          "factorDisplayName": "Days Past Due (DPD)",
+          "rawValue": 24,
+          "normalizedScore": 55,
+          "weight": 0.25,
+          "contribution": 13.75,
+          "isMissing": false,
+          "agentExplanation": "24 days overdue - in the high-cure early warning window."
+        },
+        {
+          "factor": "household_income",
+          "factorDisplayName": "Verified Monthly Income",
+          "rawValue": 28500,
+          "normalizedScore": 60,
+          "weight": 0.15,
+          "contribution": 9.00,
+          "isMissing": false,
+          "agentExplanation": "Monthly income of ₹28,500 is steady for local micro-enterprise."
+        }
+      ],
+      "intent": [
+        {
+          "factor": "emi_bounce_track_record",
+          "factorDisplayName": "Historical EMI Bounce Rate",
+          "rawValue": 1,
+          "normalizedScore": 50,
+          "weight": 0.30,
+          "contribution": 15.00,
+          "isMissing": false,
+          "agentExplanation": "1 prior bounce out of 6 scheduled installments."
+        },
+        {
+          "factor": "ptp_fulfillment_ratio",
+          "factorDisplayName": "Promise to Pay (PTP) Track Record",
+          "rawValue": 0.67,
+          "normalizedScore": 52,
+          "weight": 0.25,
+          "contribution": 13.00,
+          "isMissing": false,
+          "agentExplanation": "Kept 2 out of 3 historical payment commitments."
+        },
+        {
+          "factor": "contactability_score",
+          "factorDisplayName": "Phone Contactability & Verification",
+          "rawValue": "Active Primary SIM",
+          "normalizedScore": 85,
+          "weight": 0.20,
+          "contribution": 17.00,
+          "isMissing": false,
+          "agentExplanation": "Phone verified active; primary number responds on 1st ring."
+        },
+        {
+          "factor": "loan_cycle_vintage",
+          "factorDisplayName": "MFI / NBFC Loan Cycle",
+          "rawValue": 2,
+          "normalizedScore": 45,
+          "weight": 0.15,
+          "contribution": 6.75,
+          "isMissing": false,
+          "agentExplanation": "2nd cycle borrower with acceptable 1st cycle closure."
+        },
+        {
+          "factor": "bureau_inquiry_velocity",
+          "factorDisplayName": "Bureau Inquiries in Last 90 Days",
+          "rawValue": null,
+          "normalizedScore": null,
+          "weight": 0.10,
+          "contribution": null,
+          "isMissing": true,
+          "agentExplanation": "No recent bureau inquiry pull found (Median neutral baseline applied)."
+        }
+      ]
+    }
+  }
+}

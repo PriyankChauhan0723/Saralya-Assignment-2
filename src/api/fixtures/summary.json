@@ -1,0 +1,84 @@
+{
+  "grid": {
+    "HIGH_ABILITY": {
+      "LOW_INTENT": {
+        "cohort": "WILFUL_DEFAULTER",
+        "displayName": "Wilful Defaulter",
+        "count": 1840,
+        "totalOutstanding": 58420000.00,
+        "recommendedAction": "Escalate to Legal Notice & Field Visit",
+        "operationalChannel": "Legal / Intensive Field Enforcement"
+      },
+      "MED_INTENT": {
+        "cohort": "PROCRASTINATOR",
+        "displayName": "Procrastinator",
+        "count": 3210,
+        "totalOutstanding": 89400000.00,
+        "recommendedAction": "Direct Phone Call with Strict Payment Deadline",
+        "operationalChannel": "Outbound Call Center"
+      },
+      "HIGH_INTENT": {
+        "cohort": "OOPS",
+        "displayName": "Oops",
+        "count": 4120,
+        "totalOutstanding": 112500000.00,
+        "recommendedAction": "Automated SMS / WhatsApp Payment Link Reminder",
+        "operationalChannel": "Digital Messaging"
+      }
+    },
+    "MED_ABILITY": {
+      "LOW_INTENT": {
+        "cohort": "EVASION_RISK",
+        "displayName": "Evasion Risk",
+        "count": 2150,
+        "totalOutstanding": 49800000.00,
+        "recommendedAction": "In-person Field Verification and Hard PTP Agreement",
+        "operationalChannel": "Field Agent Team"
+      },
+      "MED_INTENT": {
+        "cohort": "FENCE_SITTER",
+        "displayName": "Fence-Sitter",
+        "count": 5480,
+        "totalOutstanding": 142300000.00,
+        "recommendedAction": "Targeted Call Negotiation with Immediate UPI Link",
+        "operationalChannel": "Tele-calling Agent"
+      },
+      "HIGH_INTENT": {
+        "cohort": "CASHFLOW_CRUNCH",
+        "displayName": "Cashflow Crunch",
+        "count": 3890,
+        "totalOutstanding": 98600000.00,
+        "recommendedAction": "Offer Short Grace Period / Partial Split Payment",
+        "operationalChannel": "Relationship Manager"
+      }
+    },
+    "LOW_ABILITY": {
+      "LOW_INTENT": {
+        "cohort": "LOST_CAUSE",
+        "displayName": "Lost Cause",
+        "count": 1450,
+        "totalOutstanding": 24500000.00,
+        "recommendedAction": "Evaluate for One-Time Settlement (OTS) or Write-Off",
+        "operationalChannel": "Settlement Desk"
+      },
+      "MED_INTENT": {
+        "cohort": "STRUGGLER",
+        "displayName": "Struggler",
+        "count": 1620,
+        "totalOutstanding": 31200000.00,
+        "recommendedAction": "Token Installment Plan and Multi-party Guarantee Check",
+        "operationalChannel": "Branch Collections Supervisor"
+      },
+      "HIGH_INTENT": {
+        "cohort": "DISTRESSED",
+        "displayName": "Distressed",
+        "count": 1240,
+        "totalOutstanding": 26800000.00,
+        "recommendedAction": "Formal Loan Restructuring (Tenure Extension / EMI Reduction)",
+        "operationalChannel": "Credit Operations Desk"
+      }
+    }
+  },
+  "totalBorrowers": 25000,
+  "totalPortfolioOutstanding": 633520000.00
+}

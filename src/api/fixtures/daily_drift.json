@@ -1,0 +1,109 @@
+{
+  "snapshotDate": "2026-08-24T09:00:00.000Z",
+  "baselineDate": "2026-08-23T09:00:00.000Z",
+  "totalPortfolioCount": 25000,
+  "overnightNetDeteriorated": 184,
+  "overnightNetRepaired": 92,
+  "topAttentionCohort": "FENCE_SITTER",
+  "cohorts": [
+    {
+      "cohort": "WILFUL_DEFAULTER",
+      "displayName": "Wilful Defaulter",
+      "countYesterday": 1810,
+      "countToday": 1840,
+      "countDelta": 30,
+      "outstandingDelta": 1200000.00,
+      "inflowCount": 42,
+      "outflowCount": 12,
+      "netRiskShift": "DETERIORATED"
+    },
+    {
+      "cohort": "PROCRASTINATOR",
+      "displayName": "Procrastinator",
+      "countYesterday": 3280,
+      "countToday": 3210,
+      "countDelta": -70,
+      "outstandingDelta": -2100000.00,
+      "inflowCount": 65,
+      "outflowCount": 135,
+      "netRiskShift": "IMPROVED"
+    },
+    {
+      "cohort": "OOPS",
+      "displayName": "Oops",
+      "countYesterday": 4180,
+      "countToday": 4120,
+      "countDelta": -60,
+      "outstandingDelta": -1800000.00,
+      "inflowCount": 110,
+      "outflowCount": 170,
+      "netRiskShift": "IMPROVED"
+    },
+    {
+      "cohort": "EVASION_RISK",
+      "displayName": "Evasion Risk",
+      "countYesterday": 2090,
+      "countToday": 2150,
+      "countDelta": 60,
+      "outstandingDelta": 1850000.00,
+      "inflowCount": 78,
+      "outflowCount": 18,
+      "netRiskShift": "DETERIORATED"
+    },
+    {
+      "cohort": "FENCE_SITTER",
+      "displayName": "Fence-Sitter",
+      "countYesterday": 5390,
+      "countToday": 5480,
+      "countDelta": 90,
+      "outstandingDelta": 3100000.00,
+      "inflowCount": 140,
+      "outflowCount": 50,
+      "netRiskShift": "DETERIORATED"
+    },
+    {
+      "cohort": "CASHFLOW_CRUNCH",
+      "displayName": "Cashflow Crunch",
+      "countYesterday": 3940,
+      "countToday": 3890,
+      "countDelta": -50,
+      "outstandingDelta": -1200000.00,
+      "inflowCount": 45,
+      "outflowCount": 95,
+      "netRiskShift": "IMPROVED"
+    },
+    {
+      "cohort": "LOST_CAUSE",
+      "displayName": "Lost Cause",
+      "countYesterday": 1435,
+      "countToday": 1450,
+      "countDelta": 15,
+      "outstandingDelta": 450000.00,
+      "inflowCount": 22,
+      "outflowCount": 7,
+      "netRiskShift": "DETERIORATED"
+    },
+    {
+      "cohort": "STRUGGLER",
+      "displayName": "Struggler",
+      "countYesterday": 1630,
+      "countToday": 1620,
+      "countDelta": -10,
+      "outstandingDelta": -320000.00,
+      "inflowCount": 38,
+      "outflowCount": 48,
+      "netRiskShift": "IMPROVED"
+    },
+    {
+      "cohort": "DISTRESSED",
+      "displayName": "Distressed",
+      "countYesterday": 1245,
+      "countToday": 1240,
+      "countDelta": -5,
+      "outstandingDelta": -140000.00,
+      "inflowCount": 20,
+      "outflowCount": 25,
+      "netRiskShift": "STABLE"
+    }
+  ]
+}
